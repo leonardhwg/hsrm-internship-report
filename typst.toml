@@ -1,8 +1,8 @@
 [package]
 name = "hsrm-internship-report"
 version = "0.0.1"
-entrypoint = "main.typ"
-authors = ["Leonard Holwegler <@leonardhwg>"]
+entrypoint = "template.typ"
+authors = ["Leonard H. <@leonardhwg>"]
 license = "MIT"
 description = "Internship report for HSRM's work-integrated study program"
 repository = "https://github.com/leonardhwg/hsrm-internship-report"
@@ -13,16 +13,18 @@ exclude = ["main.pdf"]
 
 [template]
 path = "template"
-entrypoint = "template.typ"
+entrypoint = "main.typ"
 thumbnail = "thumbnail.png"
 
 [tool.packager]
 paths = [
-  "main.typ",
+  "template.typ",
   "data.typ",
   "template",
   "README.md",
   "thumbnail.png",
   "generic-company-logo.png",
-  "generic-uni-logo.png"
+  "generic-uni-logo.png",
+  "author-marker.typ",
+  "template/main.typ"
 ]
