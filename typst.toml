@@ -1,0 +1,18 @@
+[package]
+name = "hsrm-internship-report"
+version = "0.0.1"
+entrypoint = "main.typ"
+authors = ["Leonard Holwegler <@leonardhwg>"]
+license = "MIT"
+description = "Internship report for HSRM's work-integrated study program"
+repository = "https://github.com/leonardhwg/hsrm-internship-report"
+keywords = ["hsrm", "praxisbericht", "duale studium", "hochschule rhein-main", "dual study", "work integrated report"]
+categories = ["report"]
+disciplines  = ["computer-science"]
+exclude = ["main.pdf"]
+
+
+[template]
+path = "template"
+entrypoint = "template.typ"
+thumbnail = "thumbnail.png"
