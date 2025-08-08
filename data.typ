@@ -30,5 +30,5 @@
 
 #let line-spacing = .8em // maximum is set to a multiple of 1.2 to comply with hsrm's requirements
 #let legend-on-outline = true
-#let heading-font = "Stix Two Text" // change to "Times New Roman" or "Arial" to meet hsrm's formal requirements
+#let heading-font = "TeX Gyre Heros" // change to "Times New Roman" or "Arial" to meet hsrm's formal requirements
 #let text-font = "Stix Two Text" // change to "Times New Roman" or "Arial" to meet hsrm's formal requirements
