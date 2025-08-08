@@ -1,6 +1,5 @@
-#import "../template.typ": *
-#import "/data.typ": *
-#import "../author-marker.typ": author
+#import "@local/hsrm-internship-report:0.0.1": *
+#import "data.typ": *
 
 #show: project.with(
   // update values in data.typ

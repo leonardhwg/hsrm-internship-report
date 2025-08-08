@@ -22,11 +22,11 @@
   
 #let uni-name = "Name der Hochschule"
 #let uni-supervisor = "Prof. Dr. Hand Lauf"
-#let uni-logo = image("../generic-uni-logo.png", height: 3cm)
+#let uni-logo = image("/template/generic-uni-logo.png", height: 3cm)
 
 #let company-name = "Unternehmen XY"
 #let company-supervisor = "Hand Schuh"
-#let company-logo = image("../generic-company-logo.png", height: 2.6cm) // you can adjust the logo's size here
+#let company-logo = image("/template/generic-company-logo.png", height: 2.6cm) // you can adjust the logo's size here
 
 #let line-spacing = .8em // maximum is set to a multiple of 1.2 to comply with hsrm's requirements
 #let legend-on-outline = true

@@ -1,6 +1,6 @@
 [package]
 name = "hsrm-internship-report"
-version = "0.0.3"
+version = "0.0.1"
 entrypoint = "template.typ"
 authors = ["Leonard H. <@leonardhwg>"]
 license = "MIT"
@@ -19,12 +19,12 @@ thumbnail = "thumbnail.png"
 [tool.packager]
 paths = [
   "template.typ",
-  "data.typ",
+  "template/data.typ",
   "template",
   "README.md",
   "thumbnail.png",
-  "generic-company-logo.png",
-  "generic-uni-logo.png",
+  "template/generic-company-logo.png",
+  "template/generic-uni-logo.png",
   "author-marker.typ",
   "template/main.typ"
 ]
