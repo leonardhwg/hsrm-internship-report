@@ -1,6 +1,6 @@
-#import "template/template.typ": *
-#import "data.typ": *
-#import "template/author-marker.typ": author
+#import "../template.typ": *
+#import "/data.typ": *
+#import "../author-marker.typ": author
 
 #show: project.with(
   // update values in data.typ

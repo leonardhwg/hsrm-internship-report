@@ -1,4 +1,4 @@
-#import "../data.typ": authors
+#import "/data.typ": authors
 
 #let author(short, body) = {
   let author = authors.find(author => author.short == short)

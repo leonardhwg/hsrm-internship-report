@@ -1,6 +1,6 @@
 [package]
 name = "hsrm-internship-report"
-version = "0.0.1"
+version = "0.0.3"
 entrypoint = "template.typ"
 authors = ["Leonard H. <@leonardhwg>"]
 license = "MIT"
