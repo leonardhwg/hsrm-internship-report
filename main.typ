@@ -25,9 +25,7 @@
   == Einsatz des Templates
 
   === Zweck
-  Dieses Template wurde speziell für Praxisberichte im Fachbereich DCSM der Hochschule RheinMain entwickelt.  
-  Es dient als standardisierte Vorlage, um Layout, Struktur und Formatierung einheitlich zu gestalten.  
-  Alle bekannten Anforderungen der Hochschule für den Praxisbericht wurden berücksichtigt, jedoch ohne Gewähr auf Vollständigkeit, Richtigkeit oder Aktualität.
+  Dieses Template wurde speziell für Praxisberichte mit mehreren Autorinnen und Autoren entwickelt. 
 ]
 
 #author("RZ")[
@@ -46,7 +44,7 @@
   Eine zusätzliche Option, die Legende im Fußbereich der Seiten anzuzeigen, um die Autorenzuordnung auch während des Lesens zu erleichtern, ist in Planung.
 
   === Fonts
-Aktuell unterstützt die Typst-App standardmäßig weder die Schriftart "Times New Roman" noch "Arial". Um dennoch den formalen Anforderungen der Hochschule gerecht zu werden, können beide Schriftarten als `.ttf`, `.ttc`, `.otf` oder `.otc` Dateien importiert und im Dokument eingebunden werden. Alternativ besteht die Möglichkeit, die Typst-CLI zu verwenden, um die gewünschten Schriftarten systemweit verfügbar zu machen und anschließend im Projekt zu nutzen.
+Aktuell unterstützt die Typst-App standardmäßig weder die Schriftart "Times New Roman" noch "Arial". Dennoch können beide Schriftarten als `.ttf`, `.ttc`, `.otf` oder `.otc` Dateien importiert und im Dokument eingebunden werden. Alternativ besteht die Möglichkeit, die Typst-CLI zu verwenden, um die gewünschten Schriftarten systemweit verfügbar zu machen und anschließend im Projekt zu nutzen.
 ]
 
 #author("RZ")[

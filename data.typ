@@ -1,5 +1,5 @@
 #let title = "Praxisbericht"
-#let subtitle = "Hier ist Platz für ein Untertitel"
+#let subtitle = "Hier ist Platz für einen Untertitel"
 
 // set up to 6 authors
 // set a trailing comma after the author's object

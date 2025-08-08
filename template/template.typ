@@ -136,7 +136,7 @@
 
   if (legend-on-outline) {
     v(1fr)
-    strong("Autorenkenneichnung:")
+    [*Autorenkennzeichnung*]
     grid(
       columns: calc.min(authors.len(), 3),
       gutter: 1.2em,
