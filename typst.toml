@@ -11,8 +11,18 @@ categories = ["report"]
 disciplines  = ["computer-science"]
 exclude = ["main.pdf"]
 
-
 [template]
 path = "template"
 entrypoint = "template.typ"
 thumbnail = "thumbnail.png"
+
+[tool.packager]
+paths = [
+  "main.typ",
+  "data.typ",
+  "template",
+  "README.md",
+  "thumbnail.png",
+  "generic-company-logo.png",
+  "generic-uni-logo.png"
+]
