@@ -23,4 +23,5 @@ paths = [
   "README.md",
   "thumbnail.png",
   "author-marker.typ",
+  "LICENSE"
 ]
