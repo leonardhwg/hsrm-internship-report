@@ -24,26 +24,29 @@
   == Einsatz des Templates
 
   === Zweck
-  Dieses Template wurde speziell für Praxisberichte mit mehreren Autorinnen und Autoren entwickelt. 
+  Dieses Template wurde speziell für Praxisberichte mit mehreren Autorinnen und Autoren entwickelt.
 ]
 
 #author("RZ")[
-   == Autorenkennzeichnung
-  
+  == Autorenkennzeichnung
+
   === Syntax
-  Das Template ermöglicht die eindeutige Kennzeichnung von Textpassagen, um den jeweiligen Autor klar zuzuordnen.  
-  Dies erleichtert die Nachverfolgung der inhaltlichen Beiträge und die Zusammenarbeit mehrerer Verfasser.  
+  Das Template ermöglicht die eindeutige Kennzeichnung von Textpassagen, um den jeweiligen Autor klar zuzuordnen.
+  Dies erleichtert die Nachverfolgung der inhaltlichen Beiträge und die Zusammenarbeit mehrerer Verfasser.
   Die Anwendung erfolgt über folgenden Befehl:
   \
   \
   ```Typst #author("authorsShort")[Hier der Text]```
-  
+
   === Legende
-  Eine Legende zur Autorenkennzeichnung kann im Inhaltsverzeichnis ein- oder ausgeblendet werden.  
+  Eine Legende zur Autorenkennzeichnung kann im Inhaltsverzeichnis ein- oder ausgeblendet werden.
   Eine zusätzliche Option, die Legende im Fußbereich der Seiten anzuzeigen, um die Autorenzuordnung auch während des Lesens zu erleichtern, ist in Planung.
 
   === Fonts
-Aktuell unterstützt die Typst-App standardmäßig weder die Schriftart "Times New Roman" noch "Arial". Dennoch können beide Schriftarten als `.ttf`, `.ttc`, `.otf` oder `.otc` Dateien importiert und im Dokument eingebunden werden. Alternativ besteht die Möglichkeit, die Typst-CLI zu verwenden, um die gewünschten Schriftarten systemweit verfügbar zu machen und anschließend im Projekt zu nutzen.
+  Aktuell unterstützt die Typst-App standardmäßig weder die Schriftart "Times New Roman" noch "Arial". Dennoch können beide Schriftarten als `.ttf`, `.ttc`, `.otf` oder `.otc` Dateien importiert und im Dokument eingebunden werden. Alternativ besteht die Möglichkeit, die Typst-CLI zu verwenden, um die gewünschten Schriftarten systemweit verfügbar zu machen und anschließend im Projekt zu nutzen.
+
+  == Disclaimer
+  Die Vorlage orientiert sich an den Vorgaben für Praxisberichte im Studiengang Angewandte Informatik an der HSRM, erhebt jedoch keinen Anspruch auf Vollständigkeit, Aktualität oder Fehlerfreiheit.
 ]
 
 #author("RZ")[
@@ -53,12 +56,12 @@ Aktuell unterstützt die Typst-App standardmäßig weder die Schriftart "Times N
 
   == Text von verschiedenen Autoren
   === Text von Autor 1
-  Beispieltext, verfasst von Autor 1, zur Illustration der Kennzeichnung.  
+  Beispieltext, verfasst von Autor 1, zur Illustration der Kennzeichnung.
   #lorem(80)
 ]
 
 #author("FR")[
   === Text von Autor 2
-  Beispieltext, verfasst von Autor 2, zur Demonstration der Mehrfachautoren-Unterstützung.  
+  Beispieltext, verfasst von Autor 2, zur Demonstration der Mehrfachautoren-Unterstützung.
   #lorem(280)
 ]

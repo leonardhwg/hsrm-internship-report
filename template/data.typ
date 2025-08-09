@@ -4,22 +4,22 @@
 // set up to 6 authors
 // set a trailing comma after the author's object
 #let authors = (
-    (
-      name: "Rainer Zufall",
-      short: "RZ",
-      studentId: 1234567,
-      email: "rainer.zufall@hs-rm.de",
-      color: red,
-    ),
-    (
-      name: "Frank Reich",
-      short: "FR",
-      studentId: 1212121,
-      email: "frank.reich@hs-rm.de",
-      color: aqua,
-    ),
-  )
-  
+  (
+    name: "Rainer Zufall",
+    short: "RZ",
+    studentId: 1234567,
+    email: "rainer.zufall@hs-rm.de",
+    color: red,
+  ),
+  (
+    name: "Frank Reich",
+    short: "FR",
+    studentId: 1212121,
+    email: "frank.reich@hs-rm.de",
+    color: aqua,
+  ),
+)
+
 #let uni-name = "Name der Hochschule"
 #let uni-supervisor = "Prof. Dr. Hand Lauf"
 #let uni-logo = image("/template/generic-uni-logo.png", height: 3cm)
