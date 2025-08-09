@@ -21,6 +21,6 @@ paths = [
   "template.typ",
   "template",
   "README.md",
-  "thumbnail.png"
+  "thumbnail.png",
   "author-marker.typ",
 ]
