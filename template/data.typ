@@ -26,9 +26,9 @@
 
 #let company-name = "Unternehmen XY"
 #let company-supervisor = "Hand Schuh"
-#let company-logo = image("/template/generic-company-logo.png", height: 2.6cm) // you can adjust the logo's size here
+#let company-logo = image("/template/generic-company-logo.png", height: 2.6cm) // adjust the logo size here
 
 #let line-spacing = .8em // maximum is set to a multiple of 1.2 to comply with hsrm's requirements
 #let legend-on-outline = true
-#let heading-font = "TeX Gyre Heros" // change to "Times New Roman" or "Arial" to meet hsrm's formal requirements
+#let heading-font = "TeX Gyre Heros"
 #let text-font = "Stix Two Text" // change to "Times New Roman" or "Arial" to meet hsrm's formal requirements

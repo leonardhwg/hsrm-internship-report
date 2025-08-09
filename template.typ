@@ -1,3 +1,5 @@
+#import "author-marker.typ": author
+
 #let project(
   title: "",
   subtitle: "",
