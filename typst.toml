@@ -19,12 +19,8 @@ thumbnail = "thumbnail.png"
 [tool.packager]
 paths = [
   "template.typ",
-  "template/data.typ",
   "template",
   "README.md",
-  "thumbnail.png",
-  "template/generic-company-logo.png",
-  "template/generic-uni-logo.png",
+  "thumbnail.png"
   "author-marker.typ",
-  "template/main.typ"
 ]
