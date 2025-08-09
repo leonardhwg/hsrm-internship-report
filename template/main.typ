@@ -1,4 +1,4 @@
-#import "@local/hsrm-internship-report:0.0.1": *
+#import "@preview/hsrm-internship-report:0.0.1": *
 #import "data.typ": *
 
 #show: project.with(
