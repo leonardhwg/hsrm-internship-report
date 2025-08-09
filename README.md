@@ -1,11 +1,11 @@
 # HSRM Internship Report
 
-Template for internship reports in the DCSM department at RheinMain University of Applied Sciences (HSRM).  
+Template for internship reports in the DCSM department at RheinMain University of Applied Sciences (HSRM) as part of the Computer Science degree program.
 This template provides a standardized layout and makes it easy to clearly mark text sections by author.
 
 ## Features
 
-- Preconfigured layout based on HSRM conventions (page margins, line spacing etc.).
+- Preconfigured layout based on internship reports in the DCSM department at HSRM conventions (page margins, line spacing etc.).
 - Multiple authors with clear, color-coded marking inside the text via the `#author(...)` function.
 - Optional author legend shown in the table of contents.
 - Title page with university and company logos, plus supervisor details.
@@ -35,13 +35,14 @@ The Typst app does not bundle “Times New Roman” or “Arial” by default. Y
 
 ## Files
 
-- `main.typ` – Project entry point that imports the template and your data, and demonstrates author marking.
+- `main.typ` – The main document that imports the template and your data, and demonstrates author marking.
 - `data.typ` – Project- and person-specific configuration (title, authors, logos, supervisors, fonts, etc.).
 - `template.typ` – Package entry that defines and exports the document layout and utilities.
-- Placeholder logos – Generic logos for university and company (easy to replace).
-- `thumbnail.png` – Preview image for Typst Universe.
+- Placeholder logos – Generic logos for university and company.
 
 ## License
 
 This package is licensed under the MIT License (see `LICENSE`).  
 The included placeholder logos are generic and can be replaced freely.
+
+**Disclaimer**: I do not guarantee the correctness, completeness, or up-to-dateness of the contents in regards to HSRM's formal requirements. Use at your own discretion.
